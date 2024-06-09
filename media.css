@@ -1,0 +1,225 @@
+@media only screen and (max-width: 500px) {
+    *{
+        overflow-x: hidden;
+        
+    }
+
+
+    .amain{
+        /* background-color: brown; */
+        width: 100%;
+        height: 150px;
+    }
+    .bmain{
+        /* background-color: aqua; */
+        font-size: 40px;
+        font-weight: 700;
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+    }
+    .bringing{
+        /* background-color: chocolate; */
+    }
+    .bring{
+        /* background-color: crimson; */
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .text-center{
+        width: 100%;
+        height: 50vh;
+        /* background-color: brown; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .zoom-image {
+        transition: transform 0.3s ease;
+        border-radius: 20px;
+        width: 90%; 
+        height: 40vh;
+        border-radius: 20px
+      }
+      .threepara{
+        /* background-color: lime; */
+        
+      }
+      .onepara{
+        /* background-color: darkturquoise; */
+        /* width: 100%; */
+        font-size: 17px;
+        font-weight: 400;
+        height: 180px;
+        
+
+      }
+      .twopara{
+        /* background-color: blueviolet; */
+        font-size: 28px;
+        font-weight: 600;
+      }
+      .thirdpara{
+        /* background-color: chocolate; */
+        font-size: 17px;
+        font-weight: 400;
+      }
+      .here{
+        font-size: 60px;
+        font-weight: 700;
+        /* background-color: blueviolet; */
+        width: 100%;
+        font-size: 64px;
+        display: flex;
+        
+      }
+      .containers{
+        height: 340vh;
+        /* background-color: teal; */
+      }
+      .blockone{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        align-items: center;
+        /* background-color: chartreuse; */
+        justify-content: space-around;
+      }
+      .container-a{
+        width: 90%;
+        height: 300px;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: 600;
+        /* background-color: yellow; */
+      }
+      .a{
+        /* background-color: cyan; */
+        height: 100%;
+        
+       
+      }
+      .heading{
+        font-size: 40px;
+      }
+      .content{
+        font-size: 30px;
+      }
+      .container-b{
+        width: 90%;
+        height: 300px;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: 600;
+        /* background-color: blue; */
+      }
+      .b{
+        /* background-color: brown; */
+        /* width: 100%; */
+        height: 100%;
+      }
+      .line{
+        font-size: 30px;
+      }
+      .blocktwo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        align-items: center;
+        /* background-color: rgb(255, 77, 0); */
+        justify-content: space-around;
+
+      }
+      .container-c{
+        width: 90%;
+        height: 300px;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: 600;
+      }
+      .c{
+        height: 100%;
+      }
+      .container-d{
+        width: 90%;
+        height: 320px;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: 600;
+
+      }
+      .d{
+        height: 100%;
+      }
+      .blockthird{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 125vh;
+        align-items: center;
+        /* background-color: rgb(30, 0, 255); */
+        justify-content: space-around;
+
+      }
+      .container-e{
+        width: 90%;
+        height: 500px;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: 600;
+        /* background-color: aqua; */
+      }
+      .e{
+        /* background-color: brown; */
+        height: 100%;
+      }
+      .container-f{
+        width: 90%;
+        height: 300px;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: 600;
+      }
+      .f{
+        height: 100%;
+      }
+      .join{
+        /* background-color: chocolate; */
+        display: flex;
+        justify-content: center;
+        height: 250px;
+      }
+      .joinus{
+        /* background-color: aqua; */
+        font-size: 17px;
+        width: 80%;
+        height: 200px;
+        
+      }
+     .footer{
+        display: flex;
+        flex-direction: column;
+     }
+     .last{
+        /* background-color: brown; */
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        font-size: 15px;
+     }
+     .connect{
+        font-size: 15px;
+     }
+
+
+
+
+
+
+
+
+}
