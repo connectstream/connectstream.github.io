@@ -21,30 +21,43 @@
     }
     .bringing{
         /* background-color: chocolate; */
+        display: flex;
+        justify-content: center;
+        height: 250px;
     }
     .bring{
         /* background-color: crimson; */
         font-size: 30px;
         font-weight: 600;
+        width: 80%;
+        height: 250px;
     }
+    
     .text-center{
-        width: 100%;
-        height: 50vh;
-        /* background-color: brown; */
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+      width: 100%;
+      height: 40vh;
+      /* background-color: brown; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+     
+  }
     
     .zoom-image {
         transition: transform 0.3s ease;
         border-radius: 20px;
         width: 90%; 
-        height: 40vh;
-        border-radius: 20px
+        height: 30vh;
+        border-radius: 20px;
+        /* background-color: aqua; */
+        
       }
       .threepara{
         /* background-color: lime; */
+        height: 130vh;
+        display: flex;
+        justify-content: space-evenly;
         
       }
       .onepara{
@@ -53,6 +66,9 @@
         font-size: 17px;
         font-weight: 400;
         height: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         
 
       }
@@ -60,24 +76,49 @@
         /* background-color: blueviolet; */
         font-size: 28px;
         font-weight: 600;
+        height: 370px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
       .thirdpara{
         /* background-color: chocolate; */
         font-size: 17px;
         font-weight: 400;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
       .here{
+        font-size: 64px;
+        font-weight: 700;
+        background-color: blueviolet;
+        width: 100%;
         font-size: 60px;
+        display: none;
+        text-align: center;      
+      }
+      .heres{
+        font-size: 64px;
         font-weight: 700;
         /* background-color: blueviolet; */
-        width: 100%;
-        font-size: 64px;
-        display: flex;
         
+        font-size: 60px;
+        display: flex;
+        /* text-align: center;   */
+        color: #000000;
+        font-family: Inter, sans-serif;
+        width: 100%;
+        height: 300px;
+        align-items: center;
+        justify-content: center;
       }
       .containers{
-        height: 340vh;
+        height: 250vh;
         /* background-color: teal; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
       }
       .blockone{
         display: flex;
@@ -99,11 +140,13 @@
       .a{
         /* background-color: cyan; */
         height: 100%;
-        
+        display: flex;
+       justify-content: center;
+        flex-direction: column;
        
       }
       .heading{
-        font-size: 40px;
+        font-size: 30px;
       }
       .content{
         font-size: 30px;
@@ -120,6 +163,10 @@
         /* background-color: brown; */
         /* width: 100%; */
         height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+       
       }
       .line{
         font-size: 30px;
@@ -143,6 +190,10 @@
       }
       .c{
         height: 100%;
+        /* background-color: brown; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
       }
       .container-d{
         width: 90%;
@@ -154,6 +205,10 @@
       }
       .d{
         height: 100%;
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
       }
       .blockthird{
         display: flex;
@@ -176,6 +231,9 @@
       .e{
         /* background-color: brown; */
         height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
       }
       .container-f{
         width: 90%;
@@ -186,6 +244,10 @@
       }
       .f{
         height: 100%;
+        /* background-color: blue; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
       }
       .join{
         /* background-color: chocolate; */
@@ -214,9 +276,7 @@
      .connect{
         font-size: 15px;
      }
-
-
-
+     
 
 
 

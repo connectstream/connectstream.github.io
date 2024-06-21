@@ -331,3 +331,9 @@
   .links{
     color: #000;
   }
+ .hide{
+  display: none;
+ }
+ .heres{
+  display: none;
+ }
